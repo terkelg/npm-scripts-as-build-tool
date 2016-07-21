@@ -48,6 +48,6 @@ Or:
 https://github.com/Qard/onchange
 
 # Links
-http://substack.net/task_automation_with_npm_run
-
-https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0#.jz1v3so41
+* http://substack.net/task_automation_with_npm_run
+* https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0#.jz1v3so41
+* https://css-tricks.com/why-npm-scripts/
