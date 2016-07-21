@@ -6,11 +6,27 @@ Nuggets on how to use NPM Scripts as your build tool. You don't need Grunt or Gu
 * Always up to date
 * No need to learn extra plugins
 
-# Invoke
+# Invoke commands
+NPM provides a couple of shorthands for invoking commands.
 ```
-# Run script declared by "start"
+# Start shorthand
 $ npm start
+$ npm run
 $ npm run start
+
+# Test shorthands
+$ npm run test
+$ npm test
+$ npm tst
+$ npm t
+
+# Other shorthands
+$ npm stop
+$ npm restart
+$ npm 
+
+# Custom
+$ npm run myscript
 ```
 
 # Post and Pre hooks
