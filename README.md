@@ -23,7 +23,6 @@ $ npm t
 # Other shorthands
 $ npm stop
 $ npm restart
-$ npm 
 
 # Custom
 $ npm run myscript
