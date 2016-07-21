@@ -33,6 +33,7 @@ $ npm run myscript
 
 # Snippets
 Sequential/Combining Tasks: && (Waits for each command to finish successfully before starting the next)
+You can either use the ```pre-``` or ```post-``` hooks
 
 Parallel: &
 
@@ -41,6 +42,8 @@ Piping: |
 Anding:
 
 Or:
+
+Output to file: >
 
 https://github.com/keithamus/parallelshell (Cross platform)
 
@@ -54,6 +57,8 @@ https://github.com/keithamus/parallelshell (Cross platform)
 https://github.com/Qard/onchange
 
 https://www.npmjs.com/package/cross-env
+
+https://www.npmjs.org/package/rimraf
 
 # Links
 * http://substack.net/task_automation_with_npm_run
