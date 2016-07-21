@@ -53,6 +53,8 @@ https://github.com/keithamus/parallelshell (Cross platform)
 
 # Multiplatform
 
+# Version Bumping
+
 # Tools
 https://github.com/Qard/onchange
 
