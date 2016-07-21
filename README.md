@@ -32,11 +32,17 @@ $ npm run myscript
 [coming]
 
 # Snippets
-Sequential: &&
+Sequential/Combining Tasks: && (Waits for each command to finish successfully before starting the next)
+
 Parallel: &
+
 Piping: |
+
 Anding:
+
 Or:
+
+https://github.com/keithamus/parallelshell (Cross platform)
 
 # Complex Scripts
 
@@ -46,6 +52,8 @@ Or:
 
 # Tools
 https://github.com/Qard/onchange
+
+https://www.npmjs.com/package/cross-env
 
 # Links
 * http://substack.net/task_automation_with_npm_run
