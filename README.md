@@ -97,6 +97,7 @@ For example:
 [coming]
 
 # NPM Config Variables
+https://docs.npmjs.com/misc/config#environment-variables
 [coming]
 
 # Version Bumping
@@ -108,6 +109,10 @@ npm version - shows current version
     "version:patch": "npm version patch"
   },
 ```
+
+Notes
+Use the ```npm -s``` flag to silence npm's output from the subtasks, which makes the log output a little tidier (it is a shortcut for --loglevel=silent:
+https://docs.npmjs.com/misc/config#default-configs).
 
 # Tools
 * Nodemon
