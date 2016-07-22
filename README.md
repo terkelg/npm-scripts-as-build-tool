@@ -120,6 +120,10 @@ npm version - shows current version
 * https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0#.jz1v3so41
 * https://css-tricks.com/why-npm-scripts/
 
+# Todo
+* More examples
+* How to use env
+* Deploy example
 
 # Help
 This is a work in progress.
