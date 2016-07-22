@@ -5,7 +5,6 @@ The Node Package Manager and the package.json file in combination makes a great 
 Using npm and package.json is simpler and has no extra dependencies such as Gulp and Grunt for example.
 
 # Why NPM Scripts
-* No external dependencies
 * JavaScript all the things
 * Cut down on dependencies
 * Use any NPM script (Remember to --save-dev)
