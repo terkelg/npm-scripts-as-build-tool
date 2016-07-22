@@ -73,12 +73,12 @@ Hooks are just like any other scripts, and you can run them directly with npm ru
 ```
 
 # Snippets
-Sequential/Combining Tasks: && ()
-You can either use the ```pre-``` or ```post-``` hooks
 
-```&&``` Chaining commands (Waits for each command to finish successfully before starting the next)
+```&&``` Chaining commands (Waits for each command to finish successfully before starting the next).
+Similar to ```pre-``` or ```post-``` hooks
+
 ```|``` Piping output
-```|``` Piping output
+
 ```>``` Output to file
 
 Use Parallelshell to run commands in parallel:
