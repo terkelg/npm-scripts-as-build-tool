@@ -8,6 +8,7 @@ Nuggets on how to use NPM Scripts as your build tool. You don't need Grunt or Gu
 
 # Invoke commands
 NPM provides a couple of shorthands for invoking commands.
+To list all commands in package.json run ```npm run```
 ```
 # Start shorthand
 $ npm start
