@@ -1,5 +1,8 @@
 # NPM Scripts
-Nuggets on how to use NPM Scripts as your build tool. You don't need Grunt or Gulp anymore.
+Nuggets on how to use NPM Scripts as your build tool.
+
+The Node Package Manager and the package.json file in combination makes a great option for build automation.
+Using npm and package.json is simpler and has no extra dependencies such as Gulp and Grunt for example.
 
 # Why NPM Scripts
 * Cut down on dependencies
