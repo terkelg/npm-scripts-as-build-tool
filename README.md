@@ -114,7 +114,7 @@ This ```|``` operator is very useful where the output of first command acts as a
 ### Output Operator
 ```>``` Output to file
 ```bash
-grep ‘John Doe’ bigFileWithNames.txt > linesWithJohnDoe.txt
+grep 'John Doe' bigFileWithNames.txt > linesWithJohnDoe.txt
 ```
 
 # Complex Scripts
@@ -122,7 +122,7 @@ Decompose big problems by calling one script from another.
 Use ```&&``` to call multiple scripts serially on a single line.
 ```json
 {
-	…
+…
   "scripts": {
     "clean": "rimraf ./dist && mkdir dist",
     "prebuild": "npm run clean",
@@ -134,7 +134,7 @@ Use ```&&``` to call multiple scripts serially on a single line.
 If a command gets too complicated, you can always call a separate file
 ```json
 {
-	…
+…
 	"scripts": {
     "build": "node build.js"
   }
@@ -147,10 +147,10 @@ You don’t need Gulp for streams. Streaming has always been built into both Uni
 # Cross-platform
 Here’s some of the cross-platform commands:
 ```bash
-&& # chain tasks (Run one task after another)
-<  # input file contents to a command
->  # redirect command output to a file
-|  # redirect command output to another command
+&&  # chain tasks (Run one task after another)
+<   # input file contents to a command
+>   # redirect command output to a file
+|   # redirect command output to another command
 ```
 
 You can also use node packages instead of shell commands. 
@@ -167,7 +167,7 @@ https://docs.npmjs.com/misc/config#environment-variables
 npm version - shows current version
 ```bash
 {
-	…
+…
   "scripts": {
     "version:major": "npm version major",
     "version:minor": "npm version minor",
