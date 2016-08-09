@@ -184,6 +184,8 @@ https://docs.npmjs.com/misc/config#default-configs).
 * Auto restart node scripts with [Nodemon](https://github.com/remy/nodemon)
 * Watch files for changes with [onchange](https://github.com/Qard/onchange)
 * Run Unix commands on Windows with [cross-env](https://www.npmjs.com/package/cross-env)
+* Great list of useful Unix commands:  
+http://www.tutorialspoint.com/unix/unix-useful-commands.htm
 
 # Sources
 * http://substack.net/task_automation_with_npm_run
