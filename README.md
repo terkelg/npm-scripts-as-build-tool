@@ -122,7 +122,6 @@ Decompose big problems by calling one script from another.
 Use ```&&``` to call multiple scripts serially on a single line.
 ```json
 {
-…
   "scripts": {
     "clean": "rimraf ./dist && mkdir dist",
     "prebuild": "npm run clean",
@@ -134,7 +133,6 @@ Use ```&&``` to call multiple scripts serially on a single line.
 If a command gets too complicated, you can always call a separate file
 ```json
 {
-…
 	"scripts": {
     "build": "node build.js"
   }
@@ -165,9 +163,8 @@ https://docs.npmjs.com/misc/config#environment-variables
 
 # Version Bumping
 npm version - shows current version
-```bash
+```json
 {
-…
   "scripts": {
     "version:major": "npm version major",
     "version:minor": "npm version minor",
