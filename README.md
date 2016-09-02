@@ -185,10 +185,11 @@ https://docs.npmjs.com/misc/config#default-configs).
 http://www.tutorialspoint.com/unix/unix-useful-commands.htm
 
 # Sources
+* https://nodesource.com/blog/eleven-npm-tricks-that-will-knock-your-wombat-socks-off
 * http://substack.net/task_automation_with_npm_run
-* https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0/
-* https://css-tricks.com/why-npm-scripts/
-* https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/
+* https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0
+* https://css-tricks.com/why-npm-scripts
+* https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8
 
 # Help
 This is work in progress,
