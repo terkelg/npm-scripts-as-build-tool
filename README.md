@@ -101,14 +101,21 @@ npm run script1.js & npm run script2.js
 
 You can also use [Parallelshell](https://github.com/keithamus/parallelshell) to run commands in parallel - cross platform.
 
-### AND Operator: Chain commands
+### The Logical AND Operator *(&&)*
+```A && B –– Run B only if A succeeded```
 Chaining commands (*Waits for each command to finish successfully before starting the next*) is possible with the ```&&``` operator. This is very similar to ```pre-``` or ```post-``` hooks.
 
 The AND Operator would execute the second command only, if the execution of first command succeeds.
 
-### OR Operator
+### The Logical OR Operator *(||)*
+```A || B –– Run B only if A failed```
+Execute a second command only if the first command does not succeed.
 
-### Pipe Operator
+### The Semicolon Operator *(;)*
+```A ; B –– Run A and then B, regardless of the success or failure of A```
+The semicolon operator allows you to execute multiple commands in succession, regardless of whether each previous command succeeds.
+
+### Pipe Operator *(|)*
 This ```|``` operator is very useful where the output of first command acts as an input to the second command.
 
 ### Output Operator
