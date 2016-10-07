@@ -90,6 +90,19 @@ The order in which you define hooks doesn't matter.
   },
 ```
 
+You can’t override the behaviours for the internal commands, like ```npm publish```, but you can affect their behaviour with pre- and post- scripts. This means you can do stuff like:
+```json
+"scripts": {
+  "prepublish": "echo \"I run before npm publish\""
+}
+```
+
+# Passing Arguments
+WIP
+
+# NPM Config Variables
+WIP
+
 # Chaning
 With NPM scripts it’s possible to chain commands, just as you do with Gulp and Grunt. NPM scripts is basically just shell commands you invoke through ```NPM run```, which means you can use all your favourite shell operators. 
 
@@ -143,7 +156,7 @@ Use ```&&``` to call multiple scripts serially on a single line.
 If a command gets too complicated, you can always call a separate file
 ```json
 {
-	"scripts": {
+  "scripts": {
     "build": "node build.js"
   }
 }
@@ -194,12 +207,13 @@ https://docs.npmjs.com/misc/config#default-configs).
 * Great list of useful Unix commands:  
 http://www.tutorialspoint.com/unix/unix-useful-commands.htm
 
-# Sources
+# Resources
 * https://nodesource.com/blog/eleven-npm-tricks-that-will-knock-your-wombat-socks-off
 * http://substack.net/task_automation_with_npm_run
 * https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0
 * https://css-tricks.com/why-npm-scripts
 * https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8
+* https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 
 # Help
 This is work in progress,
