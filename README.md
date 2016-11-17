@@ -214,6 +214,8 @@ http://www.tutorialspoint.com/unix/unix-useful-commands.htm
 * https://css-tricks.com/why-npm-scripts
 * https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8
 * https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
+* https://nodesource.com/blog/eleven-npm-tricks-that-will-knock-your-wombat-socks-off/
+* https://github.com/sindresorhus/awesome-npm
 
 # Help
 This is work in progress,
